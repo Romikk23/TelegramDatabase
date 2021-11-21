@@ -1,0 +1,6 @@
+cmake_minimum_required (VERSION 2.8.12.2)
+project (tgg)
+add_executable(tgg main.cpp)
+include_directories(/usr/include)
+link_directories(/usr/lib)
+target_link_libraries(tgg sqlite3)
